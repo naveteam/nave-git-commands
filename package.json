@@ -1,6 +1,6 @@
 {
-  "name": "react-boilerplate",
-  "description": "Boilerplate da nave",
+  "name": "nave-git-commands",
+  "description": "Repositório de teste para comandos git da nave",
   "author": "Nave Team <tech@nave.rs>",
   "license": "Private",
   "version": "0.1.0",
