@@ -27,7 +27,8 @@ const LinkText = styled(Text)`
 `
 
 LinkComponent.defaultProps = {
-  textDecoration: 'underline'
+  textDecoration: 'underline',
+  linkAnchor: 'test'
 }
 
 LinkComponent.propTypes = {
