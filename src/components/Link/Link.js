@@ -24,6 +24,7 @@ const LinkComponent = props => <LinkText {...getProps(props)} />
 
 const LinkText = styled(Text)`
   text-decoration: ${({ textDecoration }) => textDecoration};
+  color: blue;
 `
 
 LinkComponent.defaultProps = {
