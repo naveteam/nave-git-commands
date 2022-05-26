@@ -18,8 +18,8 @@ ButtonComponent.defaultProps = {
   width: 'regular',
   height: 'small',
   borderRadius: 4,
-  color: 'black',
-  backgroundColor: 'primary.main'
+  color: 'blue',
+  backgroundColor: 'primary.secondary'
 }
 
 ButtonComponent.propTypes = {
