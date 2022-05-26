@@ -34,7 +34,6 @@ button, a {
   }
 }
 `
-
 const App = () => {
   const { user, isLoading } = useUser()
 
