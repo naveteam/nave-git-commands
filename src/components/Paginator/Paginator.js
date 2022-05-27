@@ -12,7 +12,8 @@ const Paginator = ({ currentPage, onChangePage, pageCount, ...props }) => {
   }
 
   const onNextPage = () => {
-    onChangePage(Math.min(currentPage + 1, pageCount))
+    const nextPage = Math.min(currentPage + 1, pageCount)
+    onChangePage(nextPage)
   }
 
   const pages = useMemo(() => Array.from(Array(pageCount)).map((_, index) => index + 1), [pageCount])
